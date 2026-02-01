@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.logo h2{
+  font-size: 45px;
+  font-weight: 900;
+}
+.color{
+  color: #FD6E0A;
+}
+header{
+  background-color: #FFF8F3;
+  padding-top: 50px;
+  background:url(images/developer.png),url(images/header_bg.png), #FFF8F3;
+  background-position: 23px 38px, bottom right;
+  background-repeat: no-repeat;
+  
+}
+nav{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .menu{
+  list-style-type: none;
+  display: flex;
+  gap: 51px;
+  align-items: center;
+}
+nav .menu a {
+  font-size: 20px;
+  color: #474747;
+  text-decoration: none;
+  align-items: center;
+
+}
+.btn{
+  background-color: #FD6E0A;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 35px;
+  font-size: 20px;
+  font-weight: bold;
+  color:#FFF8F3;
+  cursor: pointer;
+}
+.cbtn{
+  border-radius: 5px;
+  padding: 18px 35px;
+  font-size: 20px;
+  font-weight: bold;
+  color:#FD6E0A;
+  cursor: pointer;
+  background-color: white;
+  border-color: #FD6E0A;
+}
+
+#banner{
+  margin: 47px 38px 0 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#banner .banner-content{
+  max-width: 585px;
+}
+
+#banner .banner-content h2{
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+}
+#banner .banner-content h1{
+  font-size: 85px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+#banner .banner-content p{
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+#banner .banner-image img{
+  max-width: 585px;
+  /* display: flex; */
+  justify-content: right;
+  vertical-align: middle;
+}
+#about{
+  padding-top: 130px;
+}
+#about .about-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFF8F3;
+  padding: 131px 156px;
+}
+.section-heading{
+  max-width: 827px;
+  text-align: center;
+  margin: 0 auto;
+}
+.section-heading h2{
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.section-heading p{
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  color: #757575;
+}
+#about .about-container .about-info{
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info .info-card p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #757575;
+}
+.about-info .info-card h4{
+  font-size: 20px;
+}
+#skills{
+  padding-top: 130px;
+}
+.skills-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.skill-box{
+  display: flex;
+  gap: 24px;
+}
+.skill-card{
+  padding: 30px;
+  max-width: 267px;
+  box-shadow: 0 6px 50px 0 #0000002f;
+  border-radius: 5px;
+}
+.skill-card img{
+  max-width: 44px;
+  margin-bottom: 30px;
+}
+.skill-card h3{
+  font-size: 20px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.skill-card p{
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+#resume{
+  padding-top: 130px;
+}
+.resume-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 113px auto 0;
+  display: flex;
+  gap: 24px;
+}
+.section-title{
+  font-size: 30px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.resume-card{
+  max-width: 511px;
+  margin-right: 47px;
+}
+.card-titles{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #474747;
+}
+.card-info{
+  font-size: 25px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+  color: #757575;
+}
+.card-text{
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+.resume-container hr{
+  margin: 30px 0;
+}
+.text-center{
+  text-align: center;
+  margin-top: 50px;
+}
+footer{
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
+.footer-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+}
+.social{
+  max-width: 562px;
+}
+.footer-container h2{
+  color: #181818;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+.footer-container .social p{
+  color: #474747;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.icons a{
+  margin-right: 24px;
+}
+.footer-container form input[type="text"], .footer-container form textarea {
+  width: 461px;
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  color: #757575;
+}
